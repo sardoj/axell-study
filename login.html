@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Connexion · Axell, étude pivot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/auth.js"></script>
+  <script>
+    // Si déjà authentifié, rediriger vers l'accueil
+    if (window.AxellAuth) window.AxellAuth.redirectIfAuthed();
+  </script>
+</head>
+<body>
+
+<main class="login">
+  <form class="login__card" id="login-form" autocomplete="off">
+    <div class="login__brand">Axell</div>
+    <div class="login__title">Étude pivot ICP setter/closer</div>
+    <p class="login__desc">Document interne Uccello Labs. Mot de passe requis.</p>
+
+    <div class="login__error" id="login-error">Mot de passe incorrect.</div>
+
+    <div class="login__field">
+      <label class="login__label" for="login-password">Mot de passe</label>
+      <input class="login__input" type="password" id="login-password" name="password" required autofocus autocomplete="current-password">
+    </div>
+
+    <button type="submit" class="btn btn--primary btn--block">Accéder à l'étude</button>
+
+    <p class="login__note">Session valable jusqu'à fermeture du navigateur.</p>
+  </form>
+</main>
+
+<script>
+  (function () {
+    const form = document.getElementById('login-form');
+    const input = document.getElementById('login-password');
+    const errorBox = document.getElementById('login-error');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errorBox.classList.remove('is-visible');
+      const value = input.value || '';
+      const ok = await window.AxellAuth.tryLogin(value);
+      if (ok) {
+        window.location.replace('index.html');
+      } else {
+        errorBox.classList.add('is-visible');
+        input.value = '';
+        input.focus();
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>

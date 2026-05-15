@@ -5,45 +5,145 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
   <title>Axell, étude pivot ICP setter/closer</title>
   <meta name="description" content="Étude commerciale interne du pivot ICP Axell vers les agences setting/closing francophones et infopreneurs avec équipe sales internalisée.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/auth.js"></script>
 </head>
-<body>
+<body class="auth-pending" data-page="index">
 
-<div id="app" data-loading="true">
-  <div class="boot">
-    <div class="boot__spinner" aria-hidden="true"></div>
-    <p class="boot__label">Chargement de l'étude…</p>
-  </div>
-</div>
+<header id="site-header" hidden></header>
 
-<header id="site-header" class="nav" hidden>
-  <div class="container nav__inner">
-    <a class="nav__brand" href="#/" aria-label="Accueil">
-      <span class="nav__brand-name"></span>
-    </a>
-    <button class="nav__hamburger" type="button" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="nav__links" aria-label="Navigation principale"></nav>
-  </div>
-</header>
+<main>
 
-<main id="page" hidden></main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__eyebrow">Étude commerciale, pivot ICP, mai 2026</div>
+        <h1 class="hero__title">Du SaaS PME B2B au stack pilotage des agences setting/closing francophones</h1>
+        <p class="hero__desc">Pipeline complet en 7 étapes : sourcing externe, cadrage, 2 personas, analyse marché, paysage concurrentiel, architecture tarifaire et offre rédigée. Verdict global : viable sous conditions.</p>
+        <div class="hero__meta">
+          <span class="hero__meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            <span>Cible primaire : Damien, owner agence</span>
+          </span>
+          <span class="hero__meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/></svg>
+            <span>Cible secondaire : Karine, founder infopreneur</span>
+          </span>
+          <span class="hero__meta-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <span>15 mai 2026</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<footer id="site-footer" class="footer" hidden>
-  <div class="container footer__inner">
-    <div class="footer__left"></div>
-    <div class="footer__right"></div>
-  </div>
-</footer>
+  <section class="section">
+    <div class="container">
+      <div class="stats reveal-stagger">
+        <div class="stat"><div class="stat__number">8/10</div><div class="stat__label">Score douleur prioritaire</div></div>
+        <div class="stat"><div class="stat__number">990€</div><div class="stat__label">Tier sweet spot HT/mois</div></div>
+        <div class="stat"><div class="stat__number">6</div><div class="stat__label">Concurrents directs analysés</div></div>
+        <div class="stat"><div class="stat__number">Viable</div><div class="stat__label">Sous 4 conditions à lever</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-header__eyebrow">Sections de l'étude</div>
+        <h2 class="section-header__title">Étude complète en 8 sections</h2>
+        <p class="section-header__desc">Naviguez à travers les pages produites par le pipeline. Chaque section reproduit le travail des étapes correspondantes, sourcée et auditable.</p>
+      </div>
+      <div class="cards-grid cards-grid--3 reveal-stagger">
+
+        <a class="card" href="pages/synthese.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div>
+          <div class="card__title">Synthèse</div>
+          <div class="card__body">Lecture en 3 minutes : idée, problème, marché, différenciation, verdict, prochaines étapes.</div>
+          <span class="card__arrow">Lire la synthèse <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/offre.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <div class="card__title">Offre</div>
+          <div class="card__body">L'offre rédigée pour les 2 cibles. One-pager Damien primaire, déclinaison Karine.</div>
+          <span class="card__arrow">Voir l'offre <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/personas.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="card__title">Personas</div>
+          <div class="card__body">2 profils acheteurs détaillés : Damien (owner agence) et Karine (founder infopreneur).</div>
+          <span class="card__arrow">Explorer les personas <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/marche.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+          <div class="card__title">Marché</div>
+          <div class="card__body">Taille du marché francophone, canal de distribution retenu, maturité d'achat.</div>
+          <span class="card__arrow">Analyser le marché <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/concurrence.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <div class="card__title">Concurrence</div>
+          <div class="card__body">6 concurrents directs analysés. Zone de différenciation tranchée et 6 battlecards.</div>
+          <span class="card__arrow">Voir les battlecards <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/pricing.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <div class="card__title">Pricing</div>
+          <div class="card__body">5 tiers : Solo, Starter, Growth, Scale, Enterprise. Marges brutes 63 à 85 %.</div>
+          <span class="card__arrow">Voir la grille <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/viabilite.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <div class="card__title">Viabilité</div>
+          <div class="card__body">Score sur 6 critères. Verdict viable sous 4 conditions à lever avant pilote.</div>
+          <span class="card__arrow">Évaluer la viabilité <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+        <a class="card" href="pages/decouverte.html">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <div class="card__title">Découverte</div>
+          <div class="card__body">Analyse initiale des opportunités. 3 idées scorées, 35 sources externes citées.</div>
+          <span class="card__arrow">Lire la découverte <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band cta-band--primary reveal">
+        <div class="cta-band__inner">
+          <div class="cta-band__eyebrow">Document interne</div>
+          <h3 class="cta-band__title">À diffuser uniquement en équipe Uccello Labs</h3>
+          <p class="cta-band__desc">Cette étude est un document de pilotage interne. Elle contient des estimations marché, des conditions de viabilité non encore validées terrain et des grilles tarifaires en construction. Ne pas partager hors équipe sans aval Jonathan SARDO.</p>
+          <div class="cta-band__columns">
+            <div><div class="cta-band__col-label">Statut</div><div class="cta-band__col-value">v1 hypothèses sourcées</div></div>
+            <div><div class="cta-band__col-label">Pré-requis v2</div><div class="cta-band__col-value">5 à 10 entretiens terrain</div></div>
+            <div><div class="cta-band__col-label">Date révision</div><div class="cta-band__col-value">Post-entretiens (juin 2026)</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="site-footer" hidden></footer>
 
 <script src="assets/js/main.js" defer></script>
 </body>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Personas · Axell, étude pivot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="../assets/js/auth.js"></script>
+</head>
+<body class="auth-pending" data-page="personas">
+
+<header id="site-header" hidden></header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__eyebrow">2 cibles distinctes</div>
+        <h1 class="hero__title">Damien et Karine, deux personas, deux comportements d'achat</h1>
+        <p class="hero__desc">Cycle, mode décision, critère dominant, vocabulaire et réseau d'accès divergent. Cadrage en parallèle dans le pipeline. Naviguez entre les deux profils via les onglets ci-dessous.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="tabs reveal" role="region" aria-label="Personas">
+
+        <div class="tabs__list" role="tablist" aria-label="Sélection persona">
+          <button class="tabs__trigger" role="tab" id="tab-damien" data-target="panel-damien" aria-selected="true" aria-controls="panel-damien" type="button">
+            <span>Damien Cervetti</span>
+            <span class="tabs__trigger-badge">Primaire</span>
+          </button>
+          <button class="tabs__trigger" role="tab" id="tab-karine" data-target="panel-karine" aria-selected="false" aria-controls="panel-karine" type="button" tabindex="-1">
+            <span>Karine Bessière</span>
+            <span class="tabs__trigger-badge">Secondaire</span>
+          </button>
+        </div>
+
+        <!-- ============ PANEL DAMIEN ============ -->
+        <div class="tabs__panel is-active" id="panel-damien" role="tabpanel" aria-labelledby="tab-damien">
+          <div class="persona-detail">
+
+            <aside class="persona-side">
+              <div class="persona-side__avatar" aria-hidden="true">DC</div>
+              <div class="persona-side__name">Damien Cervetti</div>
+              <div class="persona-side__role">Owner d'agence setting/closing, 35 ans, Lyon</div>
+              <div class="persona-side__stats">
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Équipe</div>
+                  <div class="persona-side__stat-value">23 sales (15 setters + 8 closers)</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Clients agence</div>
+                  <div class="persona-side__stat-value">10 à 15 infopreneurs FR</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Budget max estimé</div>
+                  <div class="persona-side__stat-value">1 500 à 1 800 €/mois</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Cycle d'achat</div>
+                  <div class="persona-side__stat-value">1 à 3 mois</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Score prospectabilité</div>
+                  <div class="persona-side__stat-value">6/10</div>
+                </div>
+              </div>
+            </aside>
+
+            <div class="persona-main">
+
+              <h3>Synthèse</h3>
+              <ul>
+                <li><strong>Veut</strong> : industrialiser le pilotage de son équipe sans embaucher un opérateur dédié et sans perdre la maîtrise des comptes clients RGPD-sensibles.</li>
+                <li><strong>Bloqué par</strong> : stack patché qui craque à 3+ canaux par client, reporting manuel fin de mois (4 à 8h/semaine), Fathom refusé par 2 clients high-ticket.</li>
+                <li><strong>Objection principale</strong> : "Encore un outil français en marketing qui promet la lune. Et toi, tu vends à combien d'agences déjà ?"</li>
+              </ul>
+
+              <h3>Frustrations quotidiennes</h3>
+              <blockquote><p>Je passe 2 heures par jour entre 4 outils juste pour comprendre où en est mon équipe. Mes setters junior se plantent sur les délais de réponse et je m'en rends compte 3 jours après. Mon associé râle parce que le reporting client de fin de mois lui mange son week-end.</p></blockquote>
+
+              <h3>Anecdote business chiffrée</h3>
+              <blockquote><p>Le mois dernier, on a failli signer 80 000 € avec un cabinet de conseil parisien. Ils nous ont demandé notre document de protection des données pour la transcription. J'ai dit Fathom. Le délégué à la protection des données a dit non. Le contrat est passé chez un concurrent qui leur a sorti une solution européenne sur étagère. Coût direct : 80 000 €. Coût d'opportunité : irrécupérable.</p></blockquote>
+
+              <h3>Critères d'achat hiérarchisés</h3>
+              <ol>
+                <li>Sérénité opérationnelle (reprendre du temps sur la stratégie commerciale)</li>
+                <li>Conformité européenne défendable face à ses propres clients</li>
+                <li>Réduction du nombre d'outils (4 ou 5 vers 1)</li>
+                <li>Reporting setter et closer fiable et temps réel</li>
+                <li>Pricing par canal et par siège équilibré</li>
+              </ol>
+
+              <h3>Canal d'acquisition recommandé</h3>
+              <ul>
+                <li>LinkedIn ciblage par titre : "co-fondateur agence setting closing", taille 11-50, France métropolitaine + Belgique + Suisse romande. Volume estimé : 100 à 200 profils.</li>
+                <li>Cartographie manuelle FR à mener (organismes de formation closer listent leurs partenaires).</li>
+                <li>Prescripteur principal : agence vidéo partenaire qui a accès à des closers de son entourage.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- ============ PANEL KARINE ============ -->
+        <div class="tabs__panel" id="panel-karine" role="tabpanel" aria-labelledby="tab-karine">
+          <div class="persona-detail">
+
+            <aside class="persona-side">
+              <div class="persona-side__avatar" aria-hidden="true">KB</div>
+              <div class="persona-side__name">Karine Bessière</div>
+              <div class="persona-side__role">Founder infopreneur, 39 ans, Bordeaux</div>
+              <div class="persona-side__stats">
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Équipe</div>
+                  <div class="persona-side__stat-value">8 personnes (3 setters + 4 closers + Aurélie head of sales)</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Audience</div>
+                  <div class="persona-side__stat-value">Insta 85k, Skool 1 200 membres payants</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Budget max estimé</div>
+                  <div class="persona-side__stat-value">800 à 2 000 €/mois</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Cycle d'achat</div>
+                  <div class="persona-side__stat-value">2 à 6 semaines</div>
+                </div>
+                <div class="persona-side__stat">
+                  <div class="persona-side__stat-label">Score prospectabilité</div>
+                  <div class="persona-side__stat-value">6/10</div>
+                </div>
+              </div>
+            </aside>
+
+            <div class="persona-main">
+
+              <h3>Synthèse</h3>
+              <ul>
+                <li><strong>Veut</strong> : passer de 2,5 M€ à 5 M€ de chiffre d'affaires annuel récurrent en 18 mois sans recruter 5 sales supplémentaires.</li>
+                <li><strong>Bloquée par</strong> : équipe sales qui passe 50 % de son temps sur le bricolage d'outils, Aurélie qui part à 22 h tous les jours pour faire le reporting, conversion DM Instagram plate depuis 6 mois.</li>
+                <li><strong>Objection principale</strong> : "Si je change d'outil maintenant, mes 8 sales me lâchent. Et puis Yomi recommande GoHighLevel. Pourquoi je prendrais autre chose ?"</li>
+              </ul>
+
+              <h3>Frustrations quotidiennes</h3>
+              <blockquote><p>Je me lève à 6 h pour répondre à mes 200 DM perso pendant qu'Aurélie réveille les setters sur Slack. Mes setters sont géniaux mais ils passent 40 min/jour à copier-coller des trucs entre Manychat et Notion. Je perds des deals chauds parce qu'un closer junior n'a pas eu le temps de relire l'historique DM avant le call.</p></blockquote>
+
+              <h3>Anecdote business chiffrée</h3>
+              <blockquote><p>Le mois dernier, on avait une cliente potentielle à 15 000 € qui a écrit en DM Instagram à 3 h du matin. Personne n'a vu le message avant 14 h. Elle avait acheté chez la concurrente le matin. Aurélie m'en parle encore.</p></blockquote>
+
+              <h3>Critères d'achat hiérarchisés</h3>
+              <ol>
+                <li>Loyauté et confort de l'équipe (notamment Aurélie, point de défaillance unique)</li>
+                <li>Conversion DM Instagram améliorée (canal principal du funnel)</li>
+                <li>Reporting hebdomadaire automatique</li>
+                <li>Outil français qui ne déclenche pas la mutinerie de l'équipe (vs GoHighLevel)</li>
+              </ol>
+
+              <h3>Canal d'acquisition recommandé</h3>
+              <ul>
+                <li>Prescripteur principal : agence vidéo partenaire (réseau marketing-vidéo croise les infopreneurs francophones).</li>
+                <li>Communautés Skool francophones : top vendeurs très actifs en mastermind, 30 à 50 founders connectés.</li>
+                <li>Podcasts business féminins francophones : invitation Karine ou inversement.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer id="site-footer" hidden></footer>
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>
