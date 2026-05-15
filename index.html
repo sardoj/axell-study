@@ -7,26 +7,44 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>Uccello Labs · CODIR</title>
+  <title>Axell, étude pivot ICP setter/closer</title>
+  <meta name="description" content="Étude commerciale interne du pivot ICP Axell vers les agences setting/closing francophones et infopreneurs avec équipe sales internalisée.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
 <div id="app" data-loading="true">
   <div class="boot">
-    <div class="boot__spinner"></div>
-    <p class="boot__label">Chargement du dashboard…</p>
+    <div class="boot__spinner" aria-hidden="true"></div>
+    <p class="boot__label">Chargement de l'étude…</p>
   </div>
 </div>
 
-<script>
-  // Cache-busting for dev: append timestamp to main.js
-  (function(){
-    var s = document.createElement('script');
-    s.src = 'assets/js/main.js?v=' + Date.now();
-    s.defer = true;
-    document.head.appendChild(s);
-  })();
-</script>
+<header id="site-header" class="nav" hidden>
+  <div class="container nav__inner">
+    <a class="nav__brand" href="#/" aria-label="Accueil">
+      <span class="nav__brand-name"></span>
+    </a>
+    <button class="nav__hamburger" type="button" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" aria-label="Navigation principale"></nav>
+  </div>
+</header>
+
+<main id="page" hidden></main>
+
+<footer id="site-footer" class="footer" hidden>
+  <div class="container footer__inner">
+    <div class="footer__left"></div>
+    <div class="footer__right"></div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
 </body>
 </html>
