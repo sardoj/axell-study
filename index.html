@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Uccello Labs · CODIR</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="app" data-loading="true">
+  <div class="boot">
+    <div class="boot__spinner"></div>
+    <p class="boot__label">Chargement du dashboard…</p>
+  </div>
+</div>
+
+<script>
+  // Cache-busting for dev: append timestamp to main.js
+  (function(){
+    var s = document.createElement('script');
+    s.src = 'assets/js/main.js?v=' + Date.now();
+    s.defer = true;
+    document.head.appendChild(s);
+  })();
+</script>
+</body>
+</html>

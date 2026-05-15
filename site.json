@@ -1,0 +1,508 @@
+{
+  "$schema_version": "1.0",
+  "site": {
+    "slug": "axell-closer",
+    "name": "Axell : étude pivot ICP setter/closer",
+    "description": "Étude commerciale interne du pivot ICP Axell vers les agences setting/closing francophones et infopreneurs avec équipe sales internalisée.",
+    "lang": "fr",
+    "robots": "noindex, nofollow"
+  },
+  "branding": {
+    "fonts": {
+      "primary": { "family": "Inter", "weights": [400, 500, 600, 700], "source": "google" }
+    },
+    "tokens": {
+      "color-primary": "#1E2761",
+      "color-primary-dark": "#141a44",
+      "color-primary-light": "#CADCFC",
+      "color-accent": "#1E2761",
+      "color-text": "#1a1a1a",
+      "color-text-muted": "#6b7280",
+      "color-bg": "#ffffff",
+      "color-bg-alt": "#f9fafb",
+      "color-border": "#e5e7eb",
+      "color-footer-bg": "#1E2761",
+      "color-footer-text": "rgba(255,255,255,0.65)",
+      "radius-sm": "6px",
+      "radius-md": "10px",
+      "radius-lg": "16px",
+      "max-width": "1200px"
+    },
+    "logo": {
+      "src": "/site-assets/axell-closer/assets/img/logo.png",
+      "alt": "Axell",
+      "height": 32
+    }
+  },
+  "nav": {
+    "sticky": true,
+    "items": [
+      { "label": "Accueil", "page": "index" },
+      { "label": "Synthèse", "page": "synthese" },
+      { "label": "Offre", "page": "offre" },
+      { "label": "Personas", "page": "personas" },
+      { "label": "Marché", "page": "marche" },
+      { "label": "Concurrence", "page": "concurrence" },
+      { "label": "Pricing", "page": "pricing" },
+      { "label": "Viabilité", "page": "viabilite" },
+      { "label": "Découverte", "page": "decouverte" }
+    ]
+  },
+  "footer": {
+    "left": { "logo": true, "tagline": "Axell, étude pivot setter/closer, document interne Uccello Labs" },
+    "right": { "notes": ["Document interne, ne pas diffuser hors équipe Uccello Labs", "Généré le 15 mai 2026", "Variante produit : Axell V1 (en prod) puis V2 (refonte Hub post-août 2026)"] }
+  },
+  "auth": { "type": "team_only" },
+  "pages": [
+    {
+      "slug": "index",
+      "is_home": true,
+      "title": "Accueil",
+      "meta_description": "Étude pivot ICP Axell, synthèse pipeline complet du 15 mai 2026.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Étude commerciale, pivot ICP, mai 2026",
+            "title": "Axell : du SaaS PME B2B au stack pilotage des agences setting/closing francophones",
+            "description": "Pipeline complet en 7 étapes : sourcing externe, cadrage, 2 personas, analyse marché, paysage concurrentiel, architecture tarifaire et offre rédigée. Verdict global : viable sous conditions.",
+            "meta": [
+              { "icon": "🎯", "label": "Cible primaire : Damien, owner agence" },
+              { "icon": "🎯", "label": "Cible secondaire : Karine, founder infopreneur" },
+              { "icon": "📅", "label": "15 mai 2026" }
+            ]
+          }
+        },
+        {
+          "type": "stats",
+          "props": {
+            "items": [
+              { "number": "8/10", "label": "Score douleur" },
+              { "number": "990€", "label": "Tier sweet spot HT/mois" },
+              { "number": "6", "label": "Concurrents directs" },
+              { "number": "VIABLE", "label": "Sous 4 conditions" }
+            ]
+          }
+        },
+        {
+          "type": "cards-grid",
+          "props": {
+            "variant": "alt",
+            "header": {
+              "eyebrow": "Sections de l'étude",
+              "title": "Étude complète en 9 sections",
+              "description": "Naviguez à travers les pages produites par le pipeline. Chaque section est sourcée et reproduit le travail des étapes correspondantes."
+            },
+            "columns": 3,
+            "cards": [
+              { "eyebrow": "📋", "title": "Synthèse", "body": "Lecture en 3 minutes : idée, problème, marché, différenciation, verdict, prochaines étapes.", "href": "/sites/axell-closer/synthese" },
+              { "eyebrow": "🎯", "title": "Offre", "body": "L'offre rédigée pour les 2 cibles. One-pager Damien primaire, déclinaison Karine.", "href": "/sites/axell-closer/offre" },
+              { "eyebrow": "👤", "title": "Personas", "body": "2 profils acheteurs détaillés : Damien (owner agence) et Karine (founder infopreneur).", "href": "/sites/axell-closer/personas" },
+              { "eyebrow": "📊", "title": "Marché", "body": "Taille du marché francophone, canal de distribution retenu, maturité d'achat.", "href": "/sites/axell-closer/marche" },
+              { "eyebrow": "⚔️", "title": "Concurrence", "body": "6 concurrents directs analysés. Zone de différenciation tranchée.", "href": "/sites/axell-closer/concurrence" },
+              { "eyebrow": "💰", "title": "Pricing", "body": "5 tiers : Solo, Starter, Growth, Scale, Enterprise. Marges brutes 63 à 85 %.", "href": "/sites/axell-closer/pricing" },
+              { "eyebrow": "✅", "title": "Viabilité", "body": "Score sur 6 critères. Verdict viable sous 4 conditions à lever.", "href": "/sites/axell-closer/viabilite" },
+              { "eyebrow": "🔍", "title": "Découverte", "body": "Analyse initiale des opportunités. 3 idées scorées, sources citées.", "href": "/sites/axell-closer/decouverte" }
+            ]
+          }
+        },
+        {
+          "type": "cta-band",
+          "props": {
+            "variant": "primary",
+            "eyebrow": "Document interne",
+            "title": "À diffuser uniquement en équipe Uccello Labs",
+            "description": "Cette étude est un document de pilotage interne. Elle contient des estimations marché, des conditions de viabilité non encore validées terrain et des grilles tarifaires en construction. Ne pas partager hors équipe sans aval Jonathan SARDO.",
+            "columns": [
+              { "label": "Statut", "value": "v1 hypothèses sourcées" },
+              { "label": "Pré-requis v2", "value": "5 à 10 entretiens terrain" },
+              { "label": "Date révision", "value": "Post-entretiens (juin 2026)" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "synthese",
+      "title": "Synthèse",
+      "meta_description": "Synthèse exécutive du pivot ICP Axell : idée, problème, marché, différenciation, verdict, prochaines étapes.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Synthèse exécutive",
+            "title": "Lecture en 3 minutes",
+            "description": "Si tu n'as le temps que pour une page, lis celle-ci. Elle reproduit toutes les conclusions clés de l'étude pivot ICP."
+          }
+        },
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## 1. L'idée en une phrase\n\nAxell est le stack pilotage francophone unifié pour les agences setting/closing francophones et les infopreneurs avec équipe sales internalisée. Une seule plateforme pour gérer Instagram, WhatsApp, LinkedIn et Email, avec reporting setter/closer en temps réel et hébergement européen conforme RGPD.\n\n## 2. Le problème identifié\n\nLes agences setting/closing francophones de 5 à 50 personnes patchent aujourd'hui 4 ou 5 outils en parallèle (Manychat pour les DM Insta, Sheets pour le pipeline, Calendly pour le booking, Fathom pour la transcription, GoHighLevel ou iClosed pour piloter). Ce stack craque dès qu'on dépasse 3 canaux par client.\n\nDeux conséquences concrètes : 4 à 8 heures par semaine perdues à compiler manuellement les rapports, et des deals corporate refusés parce que Fathom est hébergé aux États-Unis et que les clients RGPD-sensibles refusent.\n\n## 3. La conclusion sur le marché\n\nLe marché cible francophone (France + Belgique + Suisse romande + Québec) est concentré : 30 à 80 agences setting/closing structurées et 100 à 300 infopreneurs avec équipe sales internalisée. Volume modeste, mais ARPU élevé : 500 à 3 000 € HT/mois selon la taille.\n\nLe canal d'acquisition retenu est le canal direct fondateur (LinkedIn FR ciblé) complété par les apporteurs réseau (notamment l'agence vidéo partenaire qui a accès à des closers de son entourage). Pas de publicité payante (budget bootstrap) ni de PLG (cible trop concentrée).\n\nObjectif réaliste sur 12 mois : 5 à 15 clients signés, soit 102 à 218 k€ ARR (8,5 à 18 k€ MRR).\n\n## 4. Ce qui nous différencie\n\nAxell est le seul outil à combiner les 4 axes suivants en même temps :\n\n1. **Multi-canal sales unifié natif** : Instagram + WhatsApp Business + LinkedIn + Email dans une seule inbox. Aucun concurrent (GoHighLevel, iClosed, Close.io, DM Tracker, SetSmart, Manychat) ne couvre les 4 canaux ensemble.\n2. **Conformité RGPD UE structurelle** : hébergement à Paris, accord de traitement des données signable jour 1, pas un argument marketing post-hoc mais une posture d'architecture.\n3. **Interface 100 % française et support fondateur direct** : Jonathan SARDO (21 ans Laravel) est l'interlocuteur direct, pas un BDR ou un SDR.\n4. **Reporting setter/closer natif** : leaderboard, SLA de réponse, follow-up consistency, alertes lead chaud non répondu.\n\n## 5. Le verdict de viabilité\n\n**Verdict global : viable sous 4 conditions à lever avant le premier pilote payant.**\n\nDouleur : 8/10 confirmée par sourcing externe (35 sources). Marché qui paie déjà : Mindeo équipé iClosed, GoHighLevel à 60 000 agences worldwide. Différenciation défendable structurellement. Pricing soutenable : marges brutes de 63 à 85 % selon le tier. Mais validation terrain absente, single point of failure côté ressources.\n\n## 6. Les prochaines étapes recommandées\n\n1. **Avant lundi 19 mai** : recadrer le partenaire vidéo (Oz Aydin) sur le bon framing : ce n'est pas un outil pour closer freelance solo, c'est le stack pilotage des agences qui emploient des closers et setters.\n2. **Cette semaine et la suivante** : planifier 5 à 10 entretiens terrain (3 à 5 owners d'agence + 2 à 3 head of sales d'infopreneurs + 2 à 3 closers/setters seniors).\n3. **Sous 2 semaines** : consultation d'un délégué à la protection des données pour cadrer la base légale d'ingestion des messages directs Instagram via l'API officielle Meta Graph.\n4. **Sous 30 jours** : cartographier manuellement le marché français pour vérifier qu'aucun acteur français équivalent n'est déjà actif (le sourcing initial était partiel).\n\n## 7. Les hypothèses à valider terrain\n\n- ARPU réel : 500 à 3 000 €/mois côté agence et 800 à 2 000 €/mois côté infopreneur (estimation à confirmer par tests d'annonce de prix)\n- Cycle d'achat : 1 à 3 mois côté agence, 2 à 6 semaines côté infopreneur\n- Sweet spot taille agence : 5 à 15 sales (en croissance) versus 15 à 50 sales (structurée)\n- Critère d'achat dominant : retour sur investissement mesurable versus défendabilité RGPD\n- Acceptation d'un add-on de transcription tiers (Noota, +19 €/mois côté client agence) en attendant le module natif post-V2\n\nSans ces validations, l'offre reste théorique et la signature du premier pilote repose sur du sable."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "offre",
+      "title": "Offre",
+      "meta_description": "Offre rédigée Axell : one-pager pour Damien (owner agence) et déclinaison pour Karine (founder infopreneur).",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Promesse",
+            "title": "Le stack pilotage francophone des équipes setting/closing",
+            "description": "Une offre déclinée en 2 versions selon la cible : owner d'agence (cible primaire Damien) ou founder infopreneur (cible secondaire Karine)."
+          }
+        },
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## Pour Damien, owner d'agence setting/closing\n\n**Promesse principale :** arrête de bricoler Manychat + Sheets + Fathom. Axell pilote ton équipe setting/closing depuis un seul outil français hébergé en Union européenne.\n\n### Ce qu'on livre\n\n- **Une inbox unique multi-canal** par client agence : Instagram DM, WhatsApp Business, LinkedIn et Email centralisés\n- **Pilotage temps réel de l'équipe** : leaderboard setter et closer, SLA de réponse, alertes lead chaud non répondu\n- **Transcription des appels de closing** en hébergement UE (intégration Noota dès aujourd'hui, module natif post-août 2026)\n- **Rapports clients agence brandés** générés en 1 clic à la fréquence choisie\n- **Multi-tenant natif** : 1 espace Axell par client, segmentation totale des données\n\n### Avant Axell\n\n4 ou 5 outils par client agence, multipliés par 10 à 15 clients. Reporting Excel manuel en fin de mois. Deals corporate refusés à cause de Fathom hébergé aux États-Unis.\n\n### Après Axell\n\nUn seul dashboard pour piloter 23 sales internes sur 4 canaux et 10 à 15 clients agence. Reporting hebdomadaire automatique. Accord de traitement des données signable jour 1 pour débloquer les clients corporate.\n\n## Pour Karine, founder infopreneur avec équipe sales internalisée\n\n**Promesse principale :** garde Aurélie (ta head of sales). Scale ton équipe sales sans la mutinerie. Axell pilote tes 8 setters et closers depuis un seul outil français.\n\n### Ce qu'on livre\n\n- **Inbox unique avec attribution automatique** : chaque DM Insta arrive directement chez le bon setter\n- **Tracking SLA de réponse** par setter en temps réel : Aurélie peut coacher individuellement\n- **Brief pré-call automatique** pour les closers junior à partir du fil de conversation prospect\n- **Rapport hebdomadaire automatique** : Aurélie récupère ses dimanches\n- **Dashboards séparés founder + head of sales** : tu vois la photo macro, ton équipe pilote l'opérationnel\n- **Hébergement UE** : tu protèges les données DM de tes membres Skool, Fathom US n'est plus dans la boucle\n\n### Pour qui ce n'est PAS\n\n- Closer freelance solo sans équipe (utiliser plutôt le Plan Solo Tripwire à 49 €/mois)\n- Inbound LinkedIn pur sans messages directs sociaux (Close.io suffit)\n- Funnel marketing all-in-one avec besoin de templating massif (GoHighLevel reste plus adapté)\n\n## Différenciation reformulée pour le commercial\n\n1. **Multi-canal sales unifié natif** : seul à le faire en français. Vous remplacez Manychat + un outil LinkedIn + un outil de pilotage équipe par Axell.\n2. **Conformité européenne structurelle** : hébergement à Paris, document de protection des données signable le jour de la signature. Vos clients corporate qui ont refusé Fathom signent enfin.\n3. **Founder développeur, support direct en français** : Jonathan SARDO, fondateur Uccello Labs, 21 ans d'expérience Laravel. Vous parlez à la personne qui code l'outil.\n\n## Appel à l'action\n\nDémo trio (vous + votre associé tech ou votre head of sales) en 30 minutes, ciblée sur votre cas concret. Si la démo convainc, pilote 30 jours sur 1 client agence à plein tarif au prorata, sortie libre avec export complet."
+          }
+        },
+        {
+          "type": "cta-band",
+          "props": {
+            "variant": "alt",
+            "eyebrow": "Pages connexes",
+            "title": "Pour creuser : pricing complet et battlecards concurrents",
+            "columns": [
+              { "label": "Tarification", "value": "5 tiers détaillés" },
+              { "label": "Concurrence", "value": "6 battlecards opérationnels" },
+              { "label": "Viabilité", "value": "Score 6 critères + 4 conditions" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "personas",
+      "title": "Personas",
+      "meta_description": "2 personas acheteurs Axell : Damien (owner d'agence setting/closing) et Karine (founder infopreneur avec équipe sales internalisée).",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "2 cibles distinctes",
+            "title": "Damien et Karine",
+            "description": "Deux profils acheteurs avec comportements d'achat divergents : cycle, mode décision, critère dominant, vocabulaire et réseau d'accès. Cadrage en parallèle dans le pipeline."
+          }
+        },
+
+        {
+          "type": "cards-grid",
+          "props": {
+            "variant": "alt",
+            "header": {
+              "eyebrow": "Aperçu",
+              "title": "Profil rapide des 2 personas"
+            },
+            "columns": 2,
+            "cards": [
+              {
+                "eyebrow": "🎯 Primaire",
+                "title": "Damien Cervetti, 35 ans",
+                "body": "Co-fondateur d'agence setting/closing à Lyon. 23 sales internes, 10 à 15 clients infopreneurs. Stack patché qui craque. Veut un outil français hébergé UE pour débloquer les clients corporate."
+              },
+              {
+                "eyebrow": "🎯 Secondaire",
+                "title": "Karine Bessière, 39 ans",
+                "body": "Founder infopreneur à Bordeaux. 8 personnes interne dont head of sales (Aurélie). Veut garder son équipe loyale sans mutinerie sur l'outil. Sensible aux tendances mais a déjà testé GoHighLevel et l'a rejeté."
+              }
+            ]
+          }
+        },
+
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## Persona 1, Damien Cervetti, owner d'agence setting/closing (cible primaire)\n\n### Synthèse en 5 lignes\n\n- **Qui** : 35 ans, co-fondateur d'une agence setting/closing à Lyon. 15 setters + 8 closers internes, 10 à 15 clients infopreneurs francophones.\n- **Veut** : industrialiser le pilotage de son équipe sales sans embaucher un opérateur dédié et sans perdre la maîtrise des comptes clients RGPD-sensibles.\n- **Bloqué par** : stack patché qui craque à 3+ canaux par client, reporting manuel fin de mois (4 à 8h par semaine), Fathom refusé par 2 clients high-ticket.\n- **Budget max estimé** : 1 500 à 1 800 €/mois pour 23 sièges (à confirmer terrain).\n- **Objection principale** : \"Encore un outil français en marketing qui promet la lune. Et toi, tu vends à combien d'agences déjà ?\"\n\n### Frustrations quotidiennes (1ère personne)\n\n> Je passe 2 heures par jour entre 4 outils juste pour comprendre où en est mon équipe. Mes setters junior se plantent sur les délais de réponse et je m'en rends compte 3 jours après. Mon associé râle parce que le reporting client de fin de mois lui mange son week-end.\n\n### Anecdote business chiffrée\n\n> Le mois dernier, on a failli signer 80 000 € avec un cabinet de conseil parisien. Ils nous ont demandé notre document de protection des données pour la transcription. J'ai dit Fathom. Le délégué à la protection des données a dit non. Le contrat est passé chez un concurrent qui leur a sorti une solution européenne sur étagère. Coût direct : 80 000 €. Coût d'opportunité : irrécupérable.\n\n### Critères d'achat hiérarchisés\n\n1. Sérénité opérationnelle (reprendre du temps sur la stratégie commerciale)\n2. Conformité européenne défendable face à ses propres clients\n3. Réduction du nombre d'outils (4 ou 5 vers 1)\n4. Reporting setter et closer fiable et temps réel\n5. Pricing par canal et par siège équilibré\n\n### Canal d'acquisition recommandé\n\n- LinkedIn ciblage par titre : \"co-fondateur agence setting closing\", taille 11-50, France métropolitaine + Belgique + Suisse romande. Volume estimé : 100 à 200 profils.\n- Cartographie manuelle FR à mener (organismes de formation closer listent leurs partenaires).\n- Prescripteur principal : agence vidéo partenaire qui a accès à des closers de son entourage.\n\n### Score prospectabilité\n\n6/10 (cible peu nombreuse en valeur absolue mais individuellement adressable par canal direct fondateur).\n\n## Persona 2, Karine Bessière, founder infopreneur avec équipe sales internalisée (cible secondaire)\n\n### Synthèse en 5 lignes\n\n- **Qui** : 39 ans, formatrice business en ligne à Bordeaux. Audience Instagram environ 85 000 abonnés, 1 200 membres Skool payants. Équipe interne 8 personnes dont Aurélie (head of sales depuis 4 ans).\n- **Veut** : passer de 2,5 M€ à 5 M€ de chiffre d'affaires annuel récurrent en 18 mois sans recruter 5 sales supplémentaires.\n- **Bloqué par** : équipe sales qui passe 50 % de son temps sur le bricolage d'outils, Aurélie qui part à 22 h tous les jours pour faire le reporting, conversion DM Instagram plate depuis 6 mois.\n- **Budget max estimé** : 800 à 2 000 €/mois pour 8 sièges (à confirmer terrain).\n- **Objection principale** : \"Si je change d'outil maintenant, mes 8 sales me lâchent. Et puis Yomi recommande GoHighLevel. Pourquoi je prendrais autre chose ?\"\n\n### Frustrations quotidiennes (1ère personne)\n\n> Je me lève à 6 h pour répondre à mes 200 DM perso pendant qu'Aurélie réveille les setters sur Slack. Mes setters sont géniaux mais ils passent 40 min/jour à copier-coller des trucs entre Manychat et Notion. Je perds des deals chauds parce qu'un closer junior n'a pas eu le temps de relire l'historique DM avant le call.\n\n### Anecdote business chiffrée\n\n> Le mois dernier, on avait une cliente potentielle à 15 000 € qui a écrit en DM Instagram à 3 h du matin. Personne n'a vu le message avant 14 h. Elle avait acheté chez la concurrente le matin. Aurélie m'en parle encore.\n\n### Critères d'achat hiérarchisés\n\n1. Loyauté et confort de l'équipe (notamment Aurélie, point de défaillance unique)\n2. Conversion DM Instagram améliorée (canal principal du funnel)\n3. Reporting hebdomadaire automatique\n4. Outil français qui ne déclenche pas la mutinerie de l'équipe (vs GoHighLevel)\n\n### Canal d'acquisition recommandé\n\n- Prescripteur principal : agence vidéo partenaire (réseau marketing-vidéo croise les infopreneurs francophones).\n- Communautés Skool francophones : top vendeurs très actifs en mastermind, 30 à 50 founders connectés.\n- Podcasts business féminins francophones : invitation Karine ou inversement.\n\n### Score prospectabilité\n\n6/10 (marché concentré et volatile, 100 à 300 acheteurs FR estimés mais individuellement chauds si signaux sociaux alignés)."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "marche",
+      "title": "Marché",
+      "meta_description": "Analyse du marché francophone setter/closer : taille, canal d'acquisition retenu, maturité d'achat.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Marché et canal",
+            "title": "Marché francophone concentré, ARPU élevé, signal d'achat actif",
+            "description": "Volume modeste mais individuellement adressable. Le marché paie déjà sur des outils américains équivalents. Maturité d'achat conscient à éduqué côté agences."
+          }
+        },
+        {
+          "type": "stats",
+          "props": {
+            "items": [
+              { "number": "130-380", "label": "Acheteurs FR estimés (2 cibles cumulées)" },
+              { "number": "2,6-7,7M€", "label": "TAM Francophonie" },
+              { "number": "1,9-6,5M€", "label": "SAM Francophonie" },
+              { "number": "102-218k€", "label": "Objectif réaliste 12 mois" }
+            ]
+          }
+        },
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## Définitions express du jargon utilisé\n\n- **TAM** (Total Addressable Market) : taille totale du marché, toutes les entreprises potentiellement concernées\n- **SAM** (Serviceable Addressable Market) : marché adressable, ceux qu'on peut réellement atteindre avec nos moyens\n- **SOM** (Serviceable Obtainable Market) : part de marché visée, objectif réaliste sur 12 mois\n- **ARPU** : revenu moyen par utilisateur (ou ici par client)\n- **ARR** : revenus récurrents annuels\n- **MRR** : revenus récurrents mensuels\n\n## Canal de distribution retenu\n\n### Canal principal : Direct fondateur\n\nLa cible est trop concentrée et trop discrète pour un canal payant ou un canal volumique. 130 à 380 acheteurs adressables au total. Le coût par contact qualifié sur LinkedIn outbound direct par fondateur reste structurellement le plus bas pour un volume si réduit. Et la cible attend explicitement un interlocuteur fondateur, pas un commercial junior.\n\n### Canal complémentaire : Apporteurs\n\nLe partenaire vidéo de Jonathan a accès direct à des closers de son entourage et donc indirectement à leurs employeurs (agences ou infopreneurs). Mises en relation à activer après recadrage du framing B2B2C.\n\n### Canaux écartés en v1\n\n- Revendeurs structurés (organismes de formation closer) : conflit d'intérêt potentiel à tester en v2\n- Publicités payantes (LinkedIn Ads, Meta) : exclu par contrainte budget bootstrap\n- Croissance produit-led via creators : exclu pour la cible B2B2C, modèle sales-led obligatoire\n\n## Analyse par profil cible\n\n### Profil A1 : owner d'agence setting/closing francophone (cible primaire)\n\n- **TAM Francophonie estimé** : 45 à 120 entités identifiées (extrapolation à partir des organismes de formation closer principaux et des offres d'emploi LinkedIn FR actives). À confirmer terrain.\n- **ARPU moyen estimé** : 12 000 €/an (au milieu de la fourchette du tier Growth). À confirmer terrain.\n- **Score sur 20** : 14/20 (volume 3, approche 4, alignement 4, cycle 3)\n\n### Profil A2 : founder infopreneur francophone avec équipe sales internalisée (cible secondaire)\n\n- **TAM Francophonie estimé** : 150 à 450 acheteurs significatifs (top vendeurs Skool, formations 6-7 chiffres avec recrutement sales actif sur LinkedIn FR). Estimation heuristique non sourçable précisément.\n- **ARPU moyen estimé** : 14 000 €/an. À confirmer terrain.\n- **Score sur 20** : 13/20 (volume 2, approche 4, alignement 3, cycle 4)\n\n## Maturité d'achat et signaux\n\n- **Marché qui paie déjà** : Mindeo (référence FR du segment) équipé d'un outil dédié closer. GoHighLevel adopté par 60 000 agences à 97 à 497 $/mois. Close.io à 99 $+/siège/mois sur les inside sales high-volume.\n- **Maturité** : conscient à éduqué côté agences (déjà testé 2-3 outils US), conscient côté infopreneurs (pression \"Yomi recommande GoHighLevel\").\n- **Cycle de décision** : 1 à 3 mois côté agence, 2 à 6 semaines côté infopreneur.\n\n## Signal global du marché\n\n**Marché prêt.** Budget dédié confirmé sur outils équivalents, maturité d'achat suffisante pour un cycle commercial sales-led, ARPU compatible avec un SaaS B2B sérieux et une économie d'acquisition outbound."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "concurrence",
+      "title": "Concurrence",
+      "meta_description": "6 concurrents directs analysés, zone de différenciation Axell tranchée, battlecards opérationnels.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Battlecards",
+            "title": "6 concurrents directs, 1 zone de différenciation tranchée",
+            "description": "Tous les concurrents directs sont américains. Aucun ne combine multi-canal complet, conformité européenne, interface française et pilotage équipe setter/closer. Fenêtre d'attaque ouverte mais courte."
+          }
+        },
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## Cartographie des concurrents\n\n### Concurrents directs (6 acteurs analysés)\n\n| Concurrent | Cible primaire | Pricing | Pertinence |\n|---|---|---|---|\n| **GoHighLevel** | Agences marketing all-in-one US | 97 à 497 $/mois | Le concurrent #1 sur Damien, déjà testé et rejeté |\n| **iClosed** | Closer agencies B2B2C | non publié, adopté par Mindeo | Le concurrent #1 sur le sweet spot agence FR |\n| **Close.io** | Inside sales high-volume | 99 $+/siège/mois | Concurrent fort sur les agences structurées de 15 à 50 sièges |\n| **DM Tracker** | Setter/closer Insta-first | non publié | Le plus dangereux : positionnement quasi identique à Axell |\n| **SetSmart** | Setter automation cross-canal | 99 $/mois | Multi-canal Insta + WhatsApp + Facebook (pas LinkedIn) |\n| **Manychat** | Mass market Insta DM | 29 $/mois Pro | Concurrent sur la cible Karine et plan tripwire |\n\n### Concurrents partiels et complémentaires\n\n- **Cesar.chat** et **Kondo** : focalisés LinkedIn, complémentaires plutôt que concurrents directs\n- **Noota** (français) et **tl;dv** (allemand) : transcription d'appels en hébergement européen, alliés potentiels ou intégrations partenaires plus que concurrents directs\n- **Fathom** (US) : transcription d'appels avec risque RGPD pour les clients sensibles\n\n## Zone de différenciation Axell\n\nAxell est le seul à cocher les 4 cases simultanément :\n\n1. **Multi-canal sales unifié natif** : Instagram + WhatsApp + LinkedIn + Email\n2. **Conformité européenne structurelle** : hébergement Paris, document de protection des données signable jour 1\n3. **Interface 100 % française et support fondateur direct**\n4. **Reporting setter/closer natif avec leaderboard temps réel**\n\nLa phrase de positionnement officielle : \"Axell est le seul stack pilotage francophone qui unifie Instagram, WhatsApp, LinkedIn et Email avec reporting setter/closer en temps réel et hébergement européen conforme RGPD.\"\n\n## Risques de positionnement détectés\n\n1. **DM Tracker positionne quasi-identiquement** sur la promesse setter/closer Insta. S'ils ajoutent LinkedIn et européanisent leur offre, fenêtre Axell se rétrécit en 6 à 12 mois.\n2. **Aucun concurrent français Axell-équivalent identifié** mais le sourcing initial était partiel. Cartographie manuelle française à mener dans les 30 jours.\n3. **Pression conformité venant des macro-mentors infopreneurs** (recommandation publique de GoHighLevel) : à contrer par 1 ou 2 témoignages founders FR au cours du Q3 2026."
+          }
+        },
+        {
+          "type": "accordion",
+          "props": {
+            "header": {
+              "eyebrow": "Battlecards",
+              "title": "Réponses opérationnelles par concurrent",
+              "description": "Pour chaque concurrent direct, comment répondre en démo ou en email cold outbound."
+            },
+            "items": [
+              { "question": "GoHighLevel (US, 60 000 agences, 97 à 497 $/mois)", "answer": "Quand il apparaît : prospect mentionne all-in-one, suit Yomi Denzel ou un macro-mentor US, cherche du templating massif. Comment répondre : GoHighLevel est puissant et adapté pour une agence marketing US anglophone. Notre cible n'est pas la même : on parle aux agences setting/closing francophones qui veulent un outil dédié pilotage sales, pas une suite marketing. Question qui fait réfléchir : combien de tes 23 setters utilisent vraiment GoHighLevel au quotidien après le mois 1, vs ouvrent encore Manychat et Sheets en parallèle ? Argument décisif : Axell est en français, hébergé en UE, supporté par le fondateur direct. Pour 23 sièges, le delta de prix vs GHL Agency 497 $ devient marginal au regard du gain de temps onboarding et du DPA RGPD signable jour 1." },
+              { "question": "iClosed (US, adopté par Mindeo)", "answer": "Quand il apparaît : prospect mentionne Mindeo, parle de call dispositions, commission tracking, est obsédé par le métier closer pur. Comment répondre : iClosed est un excellent outil pour un workflow closer pur. La question est : est-ce que ton agence pilote uniquement des closers ou aussi des setters qui qualifient en amont ? Si c'est les deux, iClosed t'oblige à scinder en 2 stacks. Argument décisif : Axell unifie setter ET closer dans un seul outil avec reporting cross-fonction. Et il est hébergé en France." },
+              { "question": "Close.io (US, 99 $+/siège, inside sales)", "answer": "Quand il apparaît : prospect a une équipe inside sales 15 à 50 personnes, fait beaucoup de cold call dialer + email. Comment répondre : Close est très mature pour de l'inside sales call-heavy. Si tes setters travaillent plutôt par DM social (Insta + WhatsApp + LinkedIn), Close ne couvre pas ces canaux nativement. Argument décisif : si plus de 50 % de tes leads viennent des DM social, Axell te coûtera moins cher (modèle par canal vs par siège) et te débloquera le multi-canal sans bricolage." },
+              { "question": "DM Tracker (US, positionnement quasi-identique)", "answer": "Le plus dangereux. Quand il apparaît : prospect cherche CRM Instagram setter closer, a trouvé via leur SEO blog. Comment répondre : DM Tracker est focalisé Instagram. Si ton équipe travaille uniquement Insta, c'est un excellent choix. Si elle travaille aussi WhatsApp, LinkedIn et Email (ce qui est le cas de la majorité des agences setting/closing structurées), tu vas devoir multiplier les outils. Argument décisif : Axell unifie Insta + WhatsApp + LinkedIn + Email dans 1 inbox + 1 reporting, et il est hébergé en France avec interface FR." },
+              { "question": "SetSmart (US, 99 $/mois, AI DM cross-canal)", "answer": "Quand il apparaît : prospect cherche AI DM setter cross-canal, focus Insta + WhatsApp principalement. Comment répondre : SetSmart est un bon outil sur Insta + WA + Messenger. Deux limites : il manque LinkedIn et il n'est pas conçu pour piloter une équipe (reporting setter/closer multi-stage). Argument décisif : Axell ajoute LinkedIn + Email + reporting team-grade + RGPD UE." },
+              { "question": "Manychat (US, 29 $/mois Pro, mass market Insta)", "answer": "Quand il apparaît : prospect a Manychat actuellement, cherche un upgrade ou un complément. Comment répondre : Manychat est un excellent chatbot et un bon point de départ. La question est : est-ce qu'il scale quand tu passes à 3+ canaux gérés simultanément et que tu veux piloter ton équipe sales en plus de répondre aux DM ? Argument décisif : Axell n'est pas Manychat++. C'est une catégorie différente : pilotage équipe sales avec inbox multi-canal. Tu peux garder Manychat pour les flows automatisés et utiliser Axell pour le pilotage humain." }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "meta_description": "Architecture tarifaire Axell, 5 tiers et add-ons, modèle hybride canal et siège, marges brutes 63 à 85 %.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Architecture tarifaire",
+            "title": "5 tiers, modèle hybride canal et siège",
+            "description": "Différenciateur clé vs concurrents : pricing par canal pour le coût technique, par siège pour la valeur de pilotage. Marges brutes confortables sur tous les tiers."
+          }
+        },
+        {
+          "type": "table-pricing",
+          "props": {
+            "tiers": [
+              {
+                "name": "Solo Tripwire",
+                "price": "49 €",
+                "unit": "HT/mois, sans engagement",
+                "description": "Plan d'appel pour closer ou setter freelance solo.",
+                "features": [
+                  "1 utilisateur",
+                  "2 canaux inclus",
+                  "600 crédits IA/mois",
+                  "Reporting personnel",
+                  "Support email best effort"
+                ]
+              },
+              {
+                "name": "Starter Agence",
+                "price": "590 €",
+                "unit": "HT/mois",
+                "description": "Petite agence 5 à 15 sales ou pilote infopreneur.",
+                "features": [
+                  "5 utilisateurs",
+                  "10 canaux inclus",
+                  "5 000 crédits IA/mois",
+                  "Reporting équipe basique",
+                  "Multi-tenant 1 client agence",
+                  "Transcription via Noota tier (+19 €/client)",
+                  "Support email <48h"
+                ]
+              },
+              {
+                "name": "Growth",
+                "price": "990 €",
+                "unit": "HT/mois",
+                "description": "Sweet spot recommandé. Damien bas (15-25 sales) ou Karine (8-12 + head of sales).",
+                "features": [
+                  "12 utilisateurs",
+                  "25 canaux inclus",
+                  "12 000 crédits IA/mois",
+                  "Reporting équipe + leaderboard",
+                  "Multi-tenant 3 clients agence",
+                  "Transcription Noota intégrée",
+                  "Support email <24h + Slack mensuel"
+                ],
+                "highlighted": true
+              },
+              {
+                "name": "Scale",
+                "price": "1 690 €",
+                "unit": "HT/mois",
+                "description": "Damien sweet spot haut, agence structurée 25-50 sales.",
+                "features": [
+                  "25 utilisateurs",
+                  "50 canaux inclus",
+                  "25 000 crédits IA/mois",
+                  "Reporting équipe + leaderboard avancé",
+                  "Multi-tenant 10 clients agence",
+                  "Transcription native (post-V2)",
+                  "Slack hebdo + 1 call mensuel fondateur"
+                ]
+              },
+              {
+                "name": "Enterprise",
+                "price": "2 490 € +",
+                "unit": "HT/mois, sur devis",
+                "description": "Mindeo+, infopreneurs 10M€+ ARR.",
+                "features": [
+                  "50 utilisateurs",
+                  "100 canaux inclus",
+                  "50 000 crédits IA/mois",
+                  "Multi-tenant illimité",
+                  "Transcription native + on-premise option",
+                  "Intégrations sur mesure",
+                  "SLA support 4h"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## Add-ons (tous tiers sauf Solo)\n\n- **Canal supplémentaire** : 18 €/mois (marge 50 %)\n- **Siège supplémentaire** : 22 €/mois (marge ~95 %)\n- **Pack 3 000 crédits IA** : 79 € ponctuel\n- **Pack 10 000 crédits IA** : 199 € ponctuel\n\n## Conditions commerciales\n\n- **Annual contract** : 2 mois offerts (équivalent -16,7 %)\n- **Pilote 30 jours** : plein tarif au prorata, sortie libre avec export complet CSV + DPA destruction sous 7 jours\n- **Pas de setup fee** bloquant. Onboarding inclus jusqu'à 1 jour.\n\n## Calcul de valeur économique\n\n### Pour Damien, 23 sales\n\nValeur estimée annuelle entre 166 000 € et 286 000 € : temps économisé en reporting + 1 deal corporate récupéré + amélioration de 5 à 15 % du close rate via meilleur SLA + réduction du stack outils. Prix value-based 10 à 20 % de la valeur : 16 640 à 57 280 €/an, soit 1 386 à 4 773 €/mois. Cohérent avec le tier Growth + add-ons (1 232 €) ou Scale (1 690 €).\n\n### Pour Karine, 8 sales\n\nValeur estimée annuelle environ 158 000 € : temps économisé pour Aurélie + amélioration de la conversion DM Insta de 12 % à 18 % + réduction du risque de départ d'Aurélie + réduction du stack outils. Prix value-based : 15 790 à 31 580 €/an, soit 1 316 à 2 632 €/mois. Cohérent avec le tier Growth (990 €) avec marge de croissance.\n\n## Cohérence par rapport aux concurrents\n\n| Concurrent | Prix concurrent équivalent | Comparaison Axell |\n|---|---|---|\n| GoHighLevel Agency | environ 463 €/mois forfait | Axell Starter 590 € : +27 % mais multi-canal complet et RGPD |\n| Close.io 12 sièges Pro | environ 1 670 €/mois | Axell Growth 990 € : -41 % à fonction supérieure |\n| iClosed estimé 12 sièges | environ 1 670 €/mois | Axell Growth 990 € : -41 % à fonction équivalente |\n| SetSmart | environ 92 €/mois forfait | Axell Solo 49 € : -47 % mais cible solo différente |\n| Manychat Pro | environ 27 €/mois | Axell Solo 49 € : +81 % mais multi-canal et reporting |\n\n## Marges brutes par tier\n\n- Solo : **63 %**\n- Starter : **85 %**\n- Growth : **77 %**\n- Scale : **73 %**\n- Enterprise : **64 %**\n\nTous au-dessus du seuil de 40 % cible. Anti-pattern de sous-pricing verrouillé : grille calibrée value-based, pas sur l'intuition \"trop cher\"."
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "viabilite",
+      "title": "Viabilité",
+      "meta_description": "Évaluation de viabilité globale Axell sur 6 critères. Verdict viable sous 4 conditions à lever avant le premier pilote payant.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Verdict global",
+            "title": "Viable sous 4 conditions à lever",
+            "description": "5 critères sur 6 sont au vert. 1 critère est en alerte (ressources Jonathan en single point of failure). 4 conditions opérationnelles à lever avant le premier pilote payant."
+          }
+        },
+        {
+          "type": "meta-grid",
+          "props": {
+            "columns": 3,
+            "items": [
+              { "label": "Douleur prioritaire", "value": "8/10, validée par 35 sources" },
+              { "label": "Cible prospectable", "value": "6/10, peu nombreuse mais adressable" },
+              { "label": "Marché prêt", "value": "Maturité conscient à éduqué" },
+              { "label": "Différenciation", "value": "Zone gagnée 4 axes" },
+              { "label": "Pricing soutenable", "value": "Marges 63 à 85 %" },
+              { "label": "Ressources Jonathan", "value": "Single point of failure" }
+            ]
+          }
+        },
+        {
+          "type": "accordion",
+          "props": {
+            "header": {
+              "eyebrow": "4 conditions à lever",
+              "title": "Pré-requis avant le premier pilote payant",
+              "description": "Les conditions sont activables en parallèle. Aucune n'est éliminatoire prise séparément, mais les 4 ensemble doivent être vues avant la signature commerciale."
+            },
+            "items": [
+              { "question": "1. Conduire 5 à 10 entretiens terrain", "answer": "3 à 5 owners d'agence setting/closing francophone (cible Damien) + 2 à 3 head of sales chez infopreneur francophone (cible Karine) + 2 à 3 closers ou setters freelance seniors (signal base de chaîne). Action : à planifier sur les 2 à 3 prochaines semaines. Sans cela, l'offre reste théorique et la signature pilote repose sur du sable. Reconsolidation v2 de tous les artefacts pipeline après." },
+              { "question": "2. Cadrer la base légale RGPD pour l'API Meta Graph Instagram", "answer": "L'ingestion des messages directs Insta pour le compte de l'agence ou de l'infopreneur exige une base légale claire : consentement double (utilisateur Axell ET ses prospects DM tiers). Action : consultation d'un délégué à la protection des données (DPO) sous 2 semaines, livrable = note juridique et template de document de protection des données signable jour 1." },
+              { "question": "3. Trancher la transcription d'appels", "answer": "Module Axell natif sur stack Hub avec hébergement Paris et Qwen3 local, disponible après août 2026 avec la refonte V2. OU intégration Noota tierce dès aujourd'hui (+19 €/mois côté client agence ou infopreneur, refacturable au client final). Action : trancher avant la vidéo du partenaire vidéo lundi 19 mai (la promesse \"préparer et débriefer les calls\" est centrale dans le pitch B2B2C)." },
+              { "question": "4. Cap volumétrique scénario solo développeur", "answer": "Viser 10 à 20 clients agences ou infopreneurs sur 12 mois (MRR cible 5 à 15 k€). Au-delà, recrutement développeur support obligatoire. Cible court terme : 1 client à au moins 500 € MRR signé avant le 2 août 2026 (objectif KR4 cycle Q2-C1). Discipline : ne pas accepter plus de 3-4 nouveaux pilotes en parallèle (overhead support trop lourd en solo)." }
+            ]
+          }
+        },
+        {
+          "type": "cta-band",
+          "props": {
+            "variant": "primary",
+            "eyebrow": "Étapes opérationnelles immédiates",
+            "title": "Action terrain, pas de support commercial supplémentaire",
+            "description": "Le pipeline core est complet. Les supports commerciaux (pitch deck, prospection, étude de cas) seront produits en v2 après confirmation terrain.",
+            "columns": [
+              { "label": "Avant lundi 19/05", "value": "Recadrer Oz sur framing B2B2C" },
+              { "label": "Sem 21 et 22", "value": "Planifier 5 à 10 entretiens terrain" },
+              { "label": "Sous 2 semaines", "value": "Consultation DPO RGPD" }
+            ]
+          }
+        }
+      ]
+    },
+
+    {
+      "slug": "decouverte",
+      "title": "Découverte",
+      "meta_description": "Découverte initiale d'opportunités, 3 idées scorées, traçabilité des 35 sources externes.",
+      "sections": [
+        {
+          "type": "hero",
+          "props": {
+            "variant": "solid",
+            "eyebrow": "Découverte d'opportunités",
+            "title": "3 idées scorées, 6 douleurs validées, 35 sources externes",
+            "description": "Sourcing externe initial pour vérifier si la cible setter/closer (intuition partenaire) tenait la route avant d'investir dans le cadrage. Méthode : triangulation des plaintes publiques sur 3 sources minimum par douleur."
+          }
+        },
+        {
+          "type": "stats",
+          "props": {
+            "items": [
+              { "number": "35", "label": "Sources avec URL exacte" },
+              { "number": "6", "label": "Douleurs identifiées" },
+              { "number": "3", "label": "Idées dans la shortlist" },
+              { "number": "25/30", "label": "Score idée prioritaire" }
+            ]
+          }
+        },
+        {
+          "type": "rich-text",
+          "props": {
+            "markdown": "## Limite méthodologique signalée\n\nReddit n'a pas été accessible directement lors du sourcing initial. Les douleurs ont été triangulées indirectement via les blogs d'éditeurs concurrents (biais éditeur fort, ils ont intérêt à dramatiser). Tous les chiffres restent à confirmer terrain par 5 à 10 entretiens qualitatifs.\n\n## Verdict du sourcing\n\nL'intuition du partenaire (cible setter/closer) tient sur la **douleur** (speed-to-lead, inbox multi-canal éclatée, transcription RGPD, reporting setter/closer) mais **pas sur la cible payante**. Le sourcing oriente clairement vers les **agences setting/closing structurées** et les **infopreneurs avec head of sales**, pas vers le closer freelance solo (revenu moyen mensuel sur outils trop bas pour un SaaS B2B sérieux avec acquisition payante).\n\n## Synthèse des 3 idées scorées\n\n### Idée #1, Axell pour agences setting/closing francophones (cible primaire) : 25/30\n\n- Douleur multi-source validée par sourcing externe (5 douleurs distinctes, 25+ citations)\n- Marché qui paie déjà sur outils US équivalents : Mindeo équipé iClosed, GoHighLevel à 60 000 agences\n- Différenciation FR + RGPD défendable structurellement\n- Capacité produit existante (Axell V1 déjà en prod)\n- ARPU 500 à 3 000 €/mois compatible SaaS B2B sérieux\n\n### Idée #2, Axell pour infopreneurs avec head of sales (cible secondaire) : 22/30\n\n- Comportement d'achat proche de l'idée #1 (mêmes outils, mêmes douleurs)\n- Volume marché cible plus large (100 à 300 founders FR)\n- Cycle de décision plus court (2 à 6 semaines vs 1 à 3 mois)\n- Risque de churn plus élevé (founder volatil sensible aux tendances)\n\n### Idée #3, Axell pour closer freelance solo : 14/30 (écartée comme produit principal)\n\n- Cible originale du partenaire vidéo, mais ARPU 30 à 150 €/mois trop bas\n- Marché en bulle réputationnelle (Trustpilot Closer Academy mitigé)\n- Concurrence dense déjà installée à moins de 30 €/mois (Manychat, InstantDM, CreatorFlow)\n- Modèle PLG nécessite budget marketing initial qu'Uccello Labs n'a pas\n- Conservée comme **plan tripwire** dans la grille pricing (49 €/mois), pas comme produit principal\n\n## Sources externes (extrait des 35 utilisées)\n\nLe sourcing complet avec URL exacte par douleur est disponible dans le brief de découverte interne. Quelques sources structurantes :\n\n- [CreatorFlow, Slow Instagram DM Responses Are Killing Sales](https://creatorflow.so/blog/slow-instagram-dm-responses-kill-sales/)\n- [LeadResponse, Speed-to-Lead Statistics 2026](https://leadresponse.co/blog/speed-to-lead-statistics)\n- [DM Tracker, Manage Setters and Closers in Instagram DMs](https://dmtracker.ai/how-to-manage-setters-and-closers)\n- [SetSmart, ManyChat alternatives](https://setsmart.io/blog/manychat-alternative)\n- [EthicsAI, IA compte rendu réunion 6 outils RGPD](https://www.ethics-ai.fr/ia-compte-rendu-reunion/)\n- [DPO Partage, IA réunion conformité RGPD](https://www.dpo-partage.fr/quand-lia-sinvite-dans-vos-reunions-transcription-automatique-comptes-rendus-intelligents-et-conformite-rgpd/)\n- [Mindeo, Closer Pro recrutement](https://www.mindeo.com/recrutement)\n- [G2 HighLevel pros and cons](https://www.g2.com/products/highlevel/reviews?qs=pros-and-cons)\n- [Capterra, Pipedrive vs Close](https://www.capterra.com/compare/132666-132667/Pipedrive-vs-Close-io)\n\nLe brief complet avec les 35 sources tabulées (colonnes : numéro, source, lien exact, type, utilisation) est conservé dans `IDEA_BRIEF.md` (document interne)."
+          }
+        }
+      ]
+    }
+  ]
+}
